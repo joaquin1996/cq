@@ -1,0 +1,101 @@
+.caja{
+    padding: 1em;
+    background: rgba(255, 255, 255, 0.35); 
+    box-shadow: 0px 0px 6px 1px rgba(2,2,2,0.12);
+  
+}
+.col-centrar{
+    float: none !important;
+    margin: 0 auto;
+}
+/* index */
+.p-index{
+    background: url(../font/536.jpg) fixed center center no-repeat;
+    background-size: cover;
+}
+.c-vertical{
+    margin-top:5em;
+}
+#form-index:focus-within,#form-index:hover{
+    background: rgba(255, 255, 255, 0.9); 
+}
+
+/*banner*/
+
+/*.banner{
+    background: url("../font/Banner%20proyecto.png") fixed center center no-repeat;
+    background-size: cover;
+    height: 20em;
+}*/
+
+/* perfil*/
+.foto{
+    margin-top: 2.5em;
+    height: 100%;
+    max-height: 20em;
+    
+}
+.imgTitulo{
+    max-height:17em;
+}
+
+/*footer*/
+
+.p-footer{
+   /*  background: url(../font/footer-background-1.jpg) fixed center center no-repeat;
+    background-size: cover; */
+    background: linear-gradient(45deg, #1f4e79, #4CAF50);
+}
+.foto-footer{
+    height: 12em;
+    max-width: 12em;
+}
+footer ul{
+    list-style: none;
+}
+footer ul li{
+    margin-bottom: 1em;
+}
+
+.ralla {
+    border-bottom: 1px solid #17a2b8;
+}
+
+nav {
+    /* background-color: #1f4e79;
+    box-shadow: 0px 0px 6px #060606; */
+    background: linear-gradient(45deg,#4CAF50,  #1f4e79);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: white;
+    font-weight: bold;
+}
+
+body {
+    background: #92999e42;
+}
+
+.card {
+    border: 2px solid #225477;
+}
+
+.inicio-presentacion {
+    box-shadow: 0px 0px 3px 2px #205178;
+    background: white;
+}
+
+.inicio-presentacion h2 {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #1f4e79;
+}
+
+.p-footer {
+    background: linear-gradient(45deg, #1f4e79, #4CAF50);
+    box-shadow: 0px 0px 3px 1px black;
+}
